@@ -1,3 +1,42 @@
-.header{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lato&family=Noto+Serif+Myanmar:wght@100;400&family=Outfit:wght@300&family=Poppins:wght@300&family=Spline+Sans:wght@300&display=swap');
+
+
+.welcomeContainer{
+   margin: auto;
+}
+
+.welcomeHeader{
+    margin: auto;
+    margin-bottom: 3rem;
+    width: 70%;
+    /* background: #fff; */
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.header, .subHeader{
+    color: #000;
+}
+
+.welcomeText, .getStartBtn{
+    font-family: Lato;
+}
+
+.welcomeText{
+    width: 70%;
+    line-height: 3rem;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+
+.motto{
+    margin: 0 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #000;
 }
